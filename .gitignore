@@ -1,0 +1,21 @@
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Lock files (optional, some teams keep these)
+frontend/pnpm-lock.yaml
+
+# Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

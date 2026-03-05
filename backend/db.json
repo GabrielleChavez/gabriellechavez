@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "id": "remi-platform",
+      "date": "2024-03-01",
+      "title": "Remi — Collaborative Memory Platform",
+      "description": "Co-founded and designed a collaborative memory-sharing platform. Led product definition, built Figma prototypes, and evaluated scalable architecture and authentication workflows.",
+      "skills": "React, Figma, Product Design, System Architecture",
+      "tags": [
+        "Startup",
+        "Product Design",
+        "UX",
+        "React"
+      ],
+      "link": ""
+    },
+    {
+      "id": "rf-i2c-state-machine",
+      "date": "2024-02-01",
+      "title": "RF & I2C State Machine",
+      "description": "Designed and debugged an Arduino-based RF communication system using RFM69HCW transceivers and implemented a finite-state machine managing communication and synchronized I2C device coordination.",
+      "skills": "C++, Arduino, RFM69HCW, I2C, Embedded Systems",
+      "tags": [
+        "Embedded Systems",
+        "C++",
+        "Arduino",
+        "RF Communication"
+      ],
+      "link": ""
+    },
+    {
+      "id": "audio-command-rc-car",
+      "date": "2023-12-01",
+      "title": "RC Car Using Audio Commands",
+      "description": "Developed a wireless embedded control system enabling voice-command operation using ESP32 audio processing and RF communication.",
+      "skills": "C++, Python, Arduino, ESP32, RF Communication, SPI",
+      "tags": [
+        "Embedded Systems",
+        "Audio Processing",
+        "IoT"
+      ],
+      "link": ""
+    }
+  ]
+}
