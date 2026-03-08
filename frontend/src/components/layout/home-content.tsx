@@ -6,7 +6,7 @@ const Content = () => {
 
       <div className={`flex flex-row items-center gap-6 shadow-2xl rounded-lg p-4 md:p-8 ${background_color}`}>
         <img
-          src="/images/profile.jpg"
+          src={`${import.meta.env.BASE_URL}images/profile.jpg`}
           alt="Gabrielle"
           className="rounded-lg w-40 h-48 object-cover shrink-0"
         />
