@@ -14,10 +14,10 @@ export type ProjectsType = {
 }
 
 export type ResearchPaperType = {
-  id: string;
   title: string;
+  author: string;
   description: string;
-  publicationDate: string;
+  year: string;
   link: string;
 
 }
