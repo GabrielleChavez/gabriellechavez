@@ -27,7 +27,6 @@ export type ContactInfoType = {
   phone: string;
   linkedin: string;
   github: string;
-
 }
 
 export type SkillType = {

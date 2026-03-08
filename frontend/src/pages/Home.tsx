@@ -3,7 +3,7 @@ import { background_color } from "../lib/color-palatte";
 
 const Homepage = () => {
   return (
-    <div className={`flex flex-col items-center min-h-screen ${background_color} p-4`}> 
+    <div className="p-4 md:p-8">
       <Content />
     </div>
   );

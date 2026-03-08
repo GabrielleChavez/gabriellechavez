@@ -1,0 +1,109 @@
+{
+  "projects": [
+    {
+      "id": "remi-platform",
+      "date": "2026-03-07",
+      "title": "Remi — Collaborative Memory Platform",
+      "description": "Co-founded and designed a collaborative memory-sharing platform. Led product definition, built Figma prototypes, and evaluated scalable architecture and authentication workflows.",
+      "skills": "React, Figma, Product Design, System Architecture",
+      "tags": [
+        "Startup",
+        "Product Design",
+        "UX",
+        "React"
+      ],
+      "link": ""
+    },
+    {
+      "id": "rf-i2c-state-machine",
+      "date": "2025-09-21",
+      "title": "RF & I2C State Machine",
+      "description": "Designed and debugged an Arduino-based RF communication system using RFM69HCW transceivers and implemented a finite-state machine managing communication and synchronized I2C device coordination.",
+      "skills": "C++, Arduino, RFM69HCW, I2C, Embedded Systems",
+      "tags": [
+        "Embedded Systems",
+        "C++",
+        "Arduino",
+        "RF Communication"
+      ],
+      "link": ""
+    },
+    {
+      "id": "multimodal-interview-analysis",
+      "date": "2025-08-16",
+      "title": "Multimodal Interview Analysis System",
+      "description": "Developed an end-to-end system that analyzes recorded interview videos by integrating speech-to-text, video intelligence, and NLP APIs. Built data pipelines aligning transcripts with visual cues and created a React dashboard to visualize results.",
+      "skills": "Python, React, Google Cloud APIs, NLP, Video Processing",
+      "tags": [
+        "Machine Learning",
+        "Computer Vision",
+        "NLP",
+        "Full Stack"
+      ],
+      "link": ""
+    },
+    {
+      "id": "autonomous-robot-car",
+      "date": "2026-02-25",
+      "title": "Autonomous Maze-Navigating Car",
+      "description": "Designed and assembled an autonomous robotic vehicle integrating PixyCam, IR, and ultrasonic sensors with encoder-based motor feedback. Implemented a finite-state control system and performed extensive hardware troubleshooting for sensor reliability and electrical noise.",
+      "skills": "C++, Arduino MEGA, Embedded Systems, Sensor Fusion",
+      "tags": [
+        "Robotics",
+        "Embedded Systems",
+        "Autonomous Systems",
+        "Arduino"
+      ],
+      "link": ""
+    },
+
+    {
+      "id": "handwriting-ascii-classification",
+      "date": "2024-12-01",
+      "title": "Handwritten Character to ASCII Classification",
+      "description": "Developed a machine learning pipeline to classify handwritten characters and convert them into ASCII representations using the AlphaNum dataset. Implemented and compared multiple machine learning and deep learning models including Random Forest, XGBoost, K-Nearest Neighbors, feedforward neural networks, convolutional neural networks, and transformer-based architectures with CNN feature extraction.",
+      "skills": "Python, PyTorch, TensorFlow, Scikit-learn, NumPy",
+      "tags": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Neural Networks"
+      ],
+      "link": "https://github.com/GabrielleChavez/CLASSIFYING-HANDWRITING-TO-ASCII-CODE"
+    },
+
+    {
+      "id": "rsa-autonomous-car",
+      "date": "2025-12-01",
+      "title": "Autonomous RC Car with Audio Activation",
+      "description": "Designed and implemented a remote-controlled autonomous car with dual operation modes: manual RF control and autonomous 'Roomba-style' navigation. Integrated an Arduino Mega with motors, IMU sensors, and a MEMS microphone to enable clap-based audio activation for starting and stopping the vehicle.",
+      "skills": "Arduino, Embedded Systems, C/C++, Sensors, RF Communication, Robotics",
+      "tags": [
+        "Robotics",
+        "Embedded Systems",
+        "Arduino",
+        "Autonomous Systems"
+      ],
+      "link": "https://github.com/GabrielleChavez/RSA_Car"
+    },
+
+    {
+      "id": "audio-recognition-analysis",
+      "date": "2025-12-17",
+      "title": "Audio Recognition & Fingerprinting System",
+      "description": "Implemented an audio fingerprinting system inspired by Shazam capable of identifying songs from short audio clips. Developed a landmark-based hashing pipeline using spectrogram features for efficient fingerprint matching and built a deep learning model using MFCC features to classify audio signals, comparing classical signal processing techniques with neural network approaches.",
+      "skills": "Python, Signal Processing, Librosa, Machine Learning, Deep Learning, Audio Analysis",
+      "tags": [
+        "Audio Processing",
+        "Machine Learning",
+        "Signal Processing",
+        "Deep Learning"
+      ],
+      "link": "https://github.com/GabrielleChavez/Audio-Recognition-Analysis"
+    }
+
+
+
+
+  ]
+}

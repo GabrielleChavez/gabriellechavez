@@ -1,13 +1,15 @@
 import type { ProjectType } from './types';
 import { API_URL } from '@/env';
 
-export const fetchProjects = async () : Promise<ProjectType[]> => {
-    const response = await fetch(`${API_URL}/projects`);
-    if (!response.ok) {
-        throw new Error('Failed to fetch projects');
-    }
-    const data: ProjectType[] = await response.json();
-    return data;
+export const fetchProjects = async (): Promise<ProjectType[]> => {
+  const response = await fetch(`${API_URL}/projects`);
+
+  if (!response.ok) {
+    throw new Error('Failed to fetch projects');
+  }
+
+  const data: { projects: ProjectType[] } = await response.json();
+  return data.projects;
 }
 
 export const deleteProject = async (id: string) : Promise<boolean> => {
