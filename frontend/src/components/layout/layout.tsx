@@ -1,13 +1,9 @@
 import Header from "./header";
 import { Outlet } from "react-router-dom";
-//import { background_color } from "../../lib/color-palatte";
-
-const background_color =
-  "bg-gradient-to-br from-orange-100/40 via-amber-50/40 to-rose-100/40";
 
 const Layout = () => {
   return (
-    // <div className={`flex flex-col min-h-screen ${background_color} relative`}>
+
     <div>
       <Header />
       <main className="flex-1 w-full max-w-7xl mx-auto px-6 flex flex-col">
