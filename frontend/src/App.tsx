@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/layout";
 import Homepage from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -10,16 +10,14 @@ const App = () => {
   return (
     <>
       <Toaster />
-      <BrowserRouter>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/research" element={<Research />} />
-            <Route path="/contact" element={<Contact />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/research" element={<Research />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
     </>
   );
 };
