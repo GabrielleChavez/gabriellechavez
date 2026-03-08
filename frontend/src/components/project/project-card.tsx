@@ -5,6 +5,7 @@ import {
   CardHeader,
   CardTitle,
   CardDescription,
+  CardContent,
   CardFooter,
 } from "@/components/ui/card"; // UI components
 import type { ProjectType } from "@/data/types"; // Type definition
